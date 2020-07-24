@@ -1,0 +1,10 @@
+void printBucket(bucket b[]) 
+    takes a bucket as a parameter and it prints all the nodes included in the bucket list.
+void setLast(node* n, char *str)
+    Pushes a new node to the end of a linked list with starting node at "n"
+void bucketSort( bucket b[8] )
+    Sorts a linked lists inside inside the bucket items in the array. Implements bubble sort.
+void sortStrings(node * start) 
+    Bubble Sort implemented by bucketSort( bucket b[8] )
+void swap( node* a,  node* b)
+    Implemented by sortStings to swap two strings
